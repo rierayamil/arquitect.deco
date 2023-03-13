@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Arqui.Deco</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Arqui deco" content="compra venta de articulos muebles indumentaria para decorar el hogar ">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="js/scrollreveal.js"></script>
+  <!-- Boxicons CDN link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand&display=swap" rel="stylesheet">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+
+    <div class=" logo">
+      <img class=" item_logo " src="img/logotipo.png" alt="">
+    </div>
+
+  </header>
+  <!-- Fin header -->
+
+
+  <!-- loader -->
+  <div class="inicio_logo2" id="loader">
+    <img class="logo2" src="./img/logotipo3.png" alt="">
+
+    <div class="loader-container ">
+      <div class="loader1" style="
+      width: 308px;
+      height: 308px;">
+      </div>
+    </div>
+  </div>
+  <!-- fin loader -->
+
+  <!-- Carousel -->
+  <div id="myCarousel" class="container carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/decoracion.jpg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777" />
+        </img>
+
+        <div class="text">
+          <div class="carousel-caption text-start">
+            <h1>Decora tu hogar!</h1>
+            <p>Encuentra en nuestros locales increibles articulos y muebles</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver articulos >> </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" src="img/slider/diseñador.jpg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777" />
+        </img>
+
+        <div class="text">
+          <div class="carousel-caption">
+            <h1>Asesoramiento!!</h1>
+            <p>Asesorate con nuestros especialistas!</p>
+            <p><a class="btn btn-lg btn-primary" href="#contactar">Contactar...</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" src="img/slider/descuento.jpg" width="100%" height="100%" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777" />
+        </img>
+
+        <div class="text">
+          <div class="carousel-caption text-end">
+            <h1>Descuentos increibles!!</h1>
+            <p>Encuentra descuentos en articulos para tu hogar</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Muestrame %</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Fin carousel -->
+
+
+
+<section class="container deco-box">
+  <div class="row decobox">
+
+    <div class="imagen_decobox col-lg-7 ">
+      <img class="decorando" src="img/decorando.jpg" alt="">
+    </div>
+    <div class="infobox col-lg-4  ">
+      <h1>Lleva a tu hogar un diseño propio!!</h1>
+      <i class='bx bxs-donate-heart' ></i>
+      <p>Realizamos indumentaria para el hogar, para tus amigos o familiares con el diseño que necesites. En nuestros locales
+        contamos con expertos para asesorarte y garantizarte un diseño unico y propio </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="container medida-box">
+  <div class="row medidabox">
+
+    <div class="imagen_medidabox col-lg-7 ">
+      <img class="decorando" src="img/medida.jpg" alt="">
+    </div>
+
+    <div class="medibox col-lg-4 ">
+      <h1>Crea tu espacio a medida!!</h1>
+      <i class='bx bx-ruler'></i>
+      <p>Realizamos diseños a la medidas del hogar, garantizando confort y calidad para todos nuestros clientes </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- sidebar -->
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <img class="mini-logo" src="img/mini-logo.png" alt="">
+      </div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+        <i class='bx bx-search'></i>
+        <input type="text" placeholder="Buscar...">
+        <span class="tooltip">Buscar</span>
+      </li>
+      <li>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class='bx bx-category-alt'></i>
+            <span class="links_name">Articulos</span>
+          </a>
+          <span class="tooltip">Articulos</span>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="camas.html">Camas <i class='bx bxs-bed'></i></a></li>
+            <li><a class="dropdown-item" href="mesas.html">Mesas <i class='bx bx-border-outer'></i></a></li>
+            <li><a class="dropdown-item" href="asientos.html">Asientos <i class='bx bx-chair'></i></a></li>
+          </ul>
+        </div>
+
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Usuario</span>
+        </a>
+        <span class="tooltip">Usuario</span>
+      </li>
+      <li>
+        <a href="https://www.google.com.ar/maps/">
+          <i class='bx bx-trip'></i>
+          <span class="links_name">Encuentranos</span>
+        </a>
+        <span class="tooltip">Encuentranos</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">Carrito</span>
+        </a>
+        <span class="tooltip">Carrito</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">Favorito</span>
+        </a>
+        <span class="tooltip">Favorito</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">Configuracion</span>
+        </a>
+        <span class="tooltip">Configuracion</span>
+      </li>
+    </ul>
+    <div class="profile_content">
+      <div class="profile">
+        <div class="profile_details">
+          <img src="img/perfil.jpg" aklt="">
+          <div class="name_job">
+            <div class="name">Yamil Riera</div>
+            <div class="job">Web Designer</div>
+          </div>
+        </div>
+        <i class='bx bx-log-out' id="log_out"></i>
+      </div>
+    </div>
+  </div>
+  <!-- fin sidebar -->
+
+
+  <!-- Footer -->
+  <footer id="contactar" class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>compañia</h4>
+          <ul>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#">Nuestros servicios</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Afiliaciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Obtener ayuda</h4>
+          <ul>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Envios</a></li>
+            <li><a href="#">Devoluciones</a></li>
+            <li><a href="#">Estado del pedido</a></li>
+            <li><a href="#">Opiniones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contactanos <i class='bx bxs-phone'></i></h4>
+          <ul>
+            <li><a href="#">Cordoba: +54 351 123-4567 </a></li>
+            <li><a href="#">Rosario: +51 341 123-4567</a></li>
+            <li><a href="#">Capital: +54 11 123-4567</a></li>
+            <li><a href="#">Gmail: Arqui_deco@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Siguenos en redes</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin Foter -->
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>
